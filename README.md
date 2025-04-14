@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+PRODIGY_FS_01 - Full Stack Authentication
 
-## Getting Started
+This is a full-stack authentication application built using Next.js, MongoDB, and JWT. The project demonstrates secure user authentication, including login, registration, password hashing, and session management.
 
-First, run the development server:
+Table of Contents
+1. Tech Stack
+2.Project Structure
+3.Installation
+4.Usage
+5.Video Explanation
 
-```bash
+1. Tech Stack
+- Frontend: Next.js, React
+- Backend: Node.js, MongoDB, bcryptjs, JWT
+- Styling: Tailwind CSS
+
+2.Project Structure
+Here is the file structure of the project:
+
+
+├── assets
+│   └── videos
+│       └── your_video.mp4
+├── components
+│   └── Header.js
+│   └── Navbar.js
+├── models
+│   └── UserModel.js
+├── pages
+│   └── api
+│       └── users
+│           ├── login
+│           └── signup
+├── public
+├── styles
+└── .gitignore
+
+
+3.Installation
+
+ 1. Clone the repository:
+
+``bash
+git clone https://github.com/Smuktha/PRODIGY_FS_01.git
+cd PRODIGY_FS_01
+``
+
+ 2. Install dependencies:
+
+`bash
+npm install
+
+
+ 3. Set up environment variables:
+
+Create a `.env` file in the root directory and add the following:
+
+``env
+MONGO_URI=mongodb+srv://<username>:<password>@yourcluster.mongodb.net/<dbname>?retryWrites=true&w=majority
+TOKEN_SECRET=yourSecretKey
+DOMAIN=http://localhost:3000
+
+
+Replace `<username>`, `<password>`, and `<dbname>` with your MongoDB credentials.
+
+ 4. Run the development server:
+
+`bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+``
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will start the application at `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Signup: Users can create a new account by providing their username, email, and password.
+- Login: After signup, users can log in using their credentials.
+- Protected Routes: Certain routes, like the dashboard, are protected and require a valid session or token to access.
 
-## Learn More
+5.Video Explanation
 
-To learn more about Next.js, take a look at the following resources:
+Here is a video explaining how the project works:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[Watch Video](./assets/videos/your_video.mp4)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Feel free to fork this repository, make improvements, and create pull requests. Contributions are welcome!
