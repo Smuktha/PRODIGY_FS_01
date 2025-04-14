@@ -81,7 +81,7 @@ This will start the application at `http://localhost:3000`.
 
 Here is a video explaining how the project works:
 
-[Watch Video](.assets/25mbuserauth)
+[Watch Video](https://drive.google.com/file/d/1zO_1sh_khJUeTV2k793TeUdlLBM_L3mR/view?usp=sharing)
 
 ## Contributing
 
