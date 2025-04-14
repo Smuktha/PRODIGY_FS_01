@@ -19,6 +19,7 @@ Here is the file structure of the project:
 
 
 ├── assets
+
 │   └── videos
 │       └── your_video.mp4
 ├── components
