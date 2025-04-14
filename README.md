@@ -21,19 +21,33 @@ Here is the file structure of the project:
 ├── assets
 
 │   └── videos
+
 │       └── your_video.mp4
+
 ├── components
+
 │   └── Header.js
+
 │   └── Navbar.js
+
 ├── models
+
 │   └── UserModel.js
+
 ├── pages
+
 │   └── api
+
 │       └── users
+
 │           ├── login
+
 │           └── signup
+
 ├── public
+
 ├── styles
+
 └── .gitignore
 
 
