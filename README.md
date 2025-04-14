@@ -81,7 +81,7 @@ This will start the application at `http://localhost:3000`.
 
 Here is a video explaining how the project works:
 
-[Watch Video](./assets/videos/your_video.mp4)
+[Watch Video](.assets/25mbuserauth)
 
 ## Contributing
 
