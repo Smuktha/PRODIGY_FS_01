@@ -1,4 +1,4 @@
-PRODIGY_FS_01 Full Stack Authentication
+PRODIGY_FS_0Full Stack Authentication
 
 This is a full-stack authentication application built using Next.js, MongoDB, and JWT. The project demonstrates secure user authentication, including login, registration, password hashing, and session management.
 
